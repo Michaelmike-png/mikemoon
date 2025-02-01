@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qspider.computers.TC_DWS010_Test"/>
+      <class name="com.qspider.book.TC_DWS_001_Test"/>
+      <class name="com.quspider.addtocart.TC_DWS12_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

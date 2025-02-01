@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qspider.computers.TC_DWS010_Test">
+        <methods>
+          <include name="openBrwoser"/>
+          <include name="login"/>
+          <include name="clickOnComputer"/>
+          <include name="configReport"/>
+          <include name="reportBackup"/>
+          <include name="Logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qspider.computers.TC_DWS010_Test -->
+      <class name="com.qspider.book.TC_DWS_001_Test">
+        <methods>
+          <include name="login"/>
+          <include name="openBrwoser"/>
+          <include name="configReport"/>
+          <include name="reportBackup"/>
+          <include name="ClickOnBooks"/>
+          <include name="Logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qspider.book.TC_DWS_001_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
