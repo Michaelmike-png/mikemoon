@@ -21,11 +21,7 @@ public class TC_DWS010_Test extends BaseClass {
 		 
 		 test.log(Status.INFO,"User logged in Successfully");
 		 
-		 
-		
-	
-		 
-		 
+
 		 hp=new HomePage(driver);
 		WebElement comp = hp.getComputerLink();
 		 wutil.mouseHover(driver,comp);
