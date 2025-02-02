@@ -3,14 +3,17 @@ package com.qspider.computers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.qspider.genericutility.BaseClass;
+import com.qspider.genericutility.ListenerUtility;
 import com.qspider.genericutility.WebDriverUtility;
 import com.qspider.objectrepository.HomePage;
 
+@Listeners(ListenerUtility.class)
 public class TC_DWS010_Test extends BaseClass {
 	
 	 @Test
